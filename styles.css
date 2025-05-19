@@ -86,3 +86,30 @@ ul li::before{
     left: 8px;
 }
 
+ul li.check{
+    color: #334c3c
+    text-decoration: line-;
+}
+
+ul li.check ::before{
+    background: gray;
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width:  40px;
+    height: 40px;
+    font-size: 15px;
+    color: darkgray;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+
+}
+
+ul li span:hover{
+    background: #767a82;
+
+}
